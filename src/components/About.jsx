@@ -47,7 +47,7 @@ const About = () => {
     For building responsive and interactive user interfaces, I often work with frameworks like React.
     I have expertise in Git for version control and deployment, and I'm comfortable working in Linux environments.
     </motion.p>
-    <div className='mt-20 flex flex-wrap gap-10'>
+    <div className='mt-20 flex flex-wrap justify-center items-center gap-10'>
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service}/>
       ))}
