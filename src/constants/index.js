@@ -19,10 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     project1,
+    project2,
     threejs,
   } from "../assets";
   
@@ -202,7 +200,7 @@ import {
     {
       name: "Entertainment Hub",
       description:
-        "A comprehensive Movies platform that allows users to search for movies, series, and TV shows, and offers curated reviews.",
+        "A comprehensive Movies platform that allows users to search for movies, series, and TV shows, and offers curated reviews from other users.",
       tags: [
         {
           name: "react",
@@ -218,7 +216,26 @@ import {
         },
       ],
       image: project1,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/bruno-kwemoi/my-first-react-app",
+      live_site_link:"https://brunoentertainmenthub.netlify.app/",
+    },
+    {
+      name: "Sushiman",
+      description:
+        "This project is a passionate endeavor to create a dining experience that transcends expectations. Discover the true essence of dining at Sushiman.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project2,
+      source_code_link: "https://github.com/bruno-kwemoi/sushi",
+      live_site_link: "https://sushimansushi.netlify.app/",
     },
   ];
   
